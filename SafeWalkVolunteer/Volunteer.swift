@@ -12,7 +12,7 @@ protocol Volunteer: ObservableObject {
     var maxHours: Int { get }
 }
 
-class SafeWalkVolunteer : Volunteer, ObservableObject{
+class SafeWalkVolunteer : Volunteer, ObservableObject{  
     var name: String
     var age: Int
     var maxHours: Int{
